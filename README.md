@@ -1,4 +1,4 @@
-pystatix
+PyStatix
 ========
 
 Installation (using pip3)
