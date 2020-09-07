@@ -3,7 +3,7 @@ from setuptools import *
 kwargs = {
     "author" : "BrainDisassembly",
     "author_email" : "braindisassm@gmail.com",
-    "description" : "File statistics script",
+    "description" : "PyStatix 1.0.0 [File Statistics Script]",
     "entry_points" : {"console_scripts" : ["pystatix=pystatix.pystatix:main"]},
     "license" : "GPL v3",
     "name" : "pystatix",
