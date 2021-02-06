@@ -8,7 +8,7 @@ The easiest and best way to install pystatix is using pip3.
 
 1. If you don't have pip3 installed, use your package manager to install the package python3-pip. For Debian based systems
    the command to use would be. `$ sudo apt-get install python3-pip`.
-2. Next, use pip3 to install pystat. `$ sudo pip3 install pystatix`.
+2. Next, use pip3 to install pystatix. `$ sudo pip3 install pystatix`.
 
 Installation (from source)
 ==========================
