@@ -1,5 +1,5 @@
-PyStatix
-========
+Statix
+======
 
 Installation (using pip3)
 =========================
