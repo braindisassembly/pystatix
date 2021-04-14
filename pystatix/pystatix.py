@@ -8,7 +8,7 @@ from getopt import getopt, GetoptError
 def version():
 
     print("+---------------------------------------------------------------------------------+")
-    print("| Pystatix. Copyright (C) 2020 BrainDisassembly, Contact: braindisassm@gmail.com    |")
+    print("| Statix. Copyright (C) 2020 BrainDisassembly, Contact: braindisassm@gmail.com    |")
     print("| Version: 1.0.0                                                                  |")
     print("|                                                                                 |")
     print("| This program comes with ABSOLUTELY NO WARRANTY; for details type `show w`.      |")
@@ -45,7 +45,7 @@ def usage():
     print("  -I: --user-command-interpreter       User command interpreter")
 
 
-def pystatix():
+def Statix():
 
     try:
         if filename:
@@ -181,26 +181,26 @@ def main():
                 if opt in ("-d", "--home-directory"): home_directory = True
                 if opt in ("-I", "--user-command-interpreter"): user_command_interpreter = True
 
-            if filename: pystatix()
+            if filename: Statix()
 
-            elif byte_size: pystatix(byte_size)
-            elif protection_bits: pystatix(protection_bits)
-            elif inode_number: pystatix(inode_number)
-            elif device: pystatix(device)
-            elif hard_links: pystatix(hard_links)
-            elif recent_access: pystatix(recent_access)
-            elif recent_modification: pystatix(recent_modification)
-            elif metadata_change: pystatix(metadata_change)
-            elif allocated_blocks: pystatix(allocated_blocks)
-            elif filesystem_blocksize: pystatix(filesystem_blocksize)
-            elif type_of_device: pystatix(type_of_device)
-            elif login_name: pystatix(login_name)
-            elif optional_encrypted_password: pystatix(iptional_encrypted_password)
-            elif user_id: pystatix(user_id)
-            elif group_id: pystatix(group_id)
-            elif name_field: pystatix(name_field)
-            elif home_directory: pystatix(home_directory)
-            elif user_command_interpreter: pystatix(user_command_interpreter)
+            elif byte_size: Statix(byte_size)
+            elif protection_bits: Statix(protection_bits)
+            elif inode_number: Statix(inode_number)
+            elif device: Statix(device)
+            elif hard_links: Statix(hard_links)
+            elif recent_access: Statix(recent_access)
+            elif recent_modification: Statix(recent_modification)
+            elif metadata_change: Sstatix(metadata_change)
+            elif allocated_blocks: Statix(allocated_blocks)
+            elif filesystem_blocksize: Statix(filesystem_blocksize)
+            elif type_of_device: Statix(type_of_device)
+            elif login_name: Statix(login_name)
+            elif optional_encrypted_password: Statix(iptional_encrypted_password)
+            elif user_id: Statix(user_id)
+            elif group_id: Statix(group_id)
+            elif name_field: Statix(name_field)
+            elif home_directory: Statix(home_directory)
+            elif user_command_interpreter: Statix(user_command_interpreter)
 
             else:
                 usage()
