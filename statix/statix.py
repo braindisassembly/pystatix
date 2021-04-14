@@ -8,7 +8,7 @@ from getopt import getopt, GetoptError
 def version():
 
     print("+---------------------------------------------------------------------------------+")
-    print("| statix. Copyright (C) 2020 BrainDisassembly, Contact: braindisassm@gmail.com    |")
+    print("| statix. Copyright (C) 2021 Nathalon                                             |")
     print("| Version: 1.0.0                                                                  |")
     print("|                                                                                 |")
     print("| This program comes with ABSOLUTELY NO WARRANTY; for details type `show w`.      |")
