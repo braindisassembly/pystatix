@@ -8,7 +8,7 @@ The easiest and best way to install Statix is using pip3.
 
 1. If you don't have pip3 installed, use your package manager to install the package python3-pip. For Debian based systems
    the command to use would be. `$ sudo apt-get install python3-pip`.
-2. Next, use pip3 to install pystatix. `$ sudo pip3 install Statix`.
+2. Next, use pip3 to install Statix. `$ sudo pip3 install Statix`.
 
 Installation (from source)
 ==========================
